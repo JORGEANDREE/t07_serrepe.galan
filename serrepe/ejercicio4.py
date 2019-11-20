@@ -12,7 +12,7 @@ sobrepeso=(peso>100)
 #condicion
 peso_invalido=True
 
-#si el peso es inavalido(menor a 0) pedir el peso
+#si el peso es inavalido( menor a 0) pedir el peso
 while(peso_invalido):
     peso=float(input("ingrese el peso:"))
     peso_invalido=(peso<0)
